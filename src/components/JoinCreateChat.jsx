@@ -1,8 +1,19 @@
+import chatIcon from "../assets/speak.png"
+
 const JoinCreateChat = () => {
     return (
         <div className="min-h-screen flex items-center justify-center">
             <div className="p-10 dark:border-gray-700 border w-full flex flex-col gap-5 max-w-md rounded dark:bg-gray-800">
+
+                  {/* chat icon */}
+                <div>
+                    <img src={chatIcon} className="w-22 mx-auto"/>
+                </div>
+
+
                 <h1 className="text-2xl font-semibold text-center text-white shadow">Join Room / Create Room...</h1>
+
+
                 {/* name div */}
                 <div className="">
 
