@@ -1,7 +1,7 @@
 const JoinCreateChat = () => {
     return (
         <div className="min-h-screen flex items-center justify-center">
-            <div className="p-8 w-full flex flex-col gap-5 max-w-md rounded dark:bg-gray-800">
+            <div className="p-10 dark:border-gray-700 border w-full flex flex-col gap-5 max-w-md rounded dark:bg-gray-800">
                 <h1 className="text-2xl font-semibold text-center text-white shadow">Join Room / Create Room...</h1>
                 {/* name div */}
                 <div className="">
