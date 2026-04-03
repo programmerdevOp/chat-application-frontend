@@ -1,3 +1,4 @@
+import { MdSend } from "react-icons/md";
 
 
 const ChatPage = () => {
@@ -28,7 +29,11 @@ const ChatPage = () => {
             {/* input message container */}
             <div className="fixed bottom-2 w-full h-16" >
                 <div className="h-full rounded border w-2/3 mx-auto dark:bg-gray-700">
-                    <input type="text" placeholder="Type your message Here" className="dark:border-gray-700    rounded w-full px-3 py-2 dark:bg-gray-900 h-full"></input>
+                    <input type="text" placeholder="Type your message Here" className="dark:border-gray-700    rounded px-3 py-2 dark:bg-gray-900 h-full"></input>
+
+                    <button className="dark:bg-green-600 h-10 w-10 flex justify-center items-center px-3 py-2 rounded-full">
+                        <MdSend/>
+                    </button>
                 </div>
             </div>
         </div>
