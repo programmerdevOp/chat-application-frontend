@@ -24,6 +24,13 @@ const ChatPage = () => {
                     <button className="dark:bg-red-500 dark:hover:bg-red-700 px-3 py-1  rounded-full text-white">Leave Room</button>
                 </div>
             </header>
+
+            {/* input message container */}
+            <div className="fixed bottom-2 w-full h-16" >
+                <div className="h-full rounded border w-2/3 mx-auto dark:bg-gray-700">
+                    <input type="text" placeholder="Type your message Here" className="dark:border-gray-700    rounded w-full px-3 py-2 dark:bg-gray-900 h-full"></input>
+                </div>
+            </div>
         </div>
     )
 }
