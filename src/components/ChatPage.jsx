@@ -3,7 +3,8 @@
 const ChatPage = () => {
     return (
         <div className="h-screen bg-black text-white">
-            <header className="dark:border-gray-700 shadow border py-5 flex justify-around items-center">
+            {/* Header Portion */}
+            <header className="dark:border-gray-700 shadow border py-5 flex justify-around items-center dark:bg-gray-900 fixed w-full h-20">
                 {/* room name container */}
                 <div>
                     <h1 className="text-xl font-semibold"> 
