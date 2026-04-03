@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import toast from 'react-hot-toast'
 import JoinCreateChat from './components/JoinCreateChat'
+import ChatPage from './components/ChatPage'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     // </div>
     <div className='bg-black'>
       <JoinCreateChat/>
+      <ChatPage/>
     </div>
   )
 }
